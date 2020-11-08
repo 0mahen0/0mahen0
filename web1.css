@@ -1,0 +1,41 @@
+body {
+    font-family: Lucida Console;
+}
+.obomne {
+    background: rgb(255, 149, 110);
+    border-radius:4%;
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    padding:  0.5% 10% 0.5%  0.5%;
+}
+
+.text {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    width: 50%;
+    height: 73%;
+    line-height: 1.6;
+    font-size: 158%;
+}
+
+.vklad {
+    background-color: rgb(255, 149, 110);
+    height: 16%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    writing-mode: tb-rl;
+}
+
+.nevklad {
+    background-color: rgb(255, 181, 154);
+    height: 16%;
+    position: absolute;
+    right: 0;
+    padding-right:5%;
+    text-align: center;
+    writing-mode: tb-rl;
+}

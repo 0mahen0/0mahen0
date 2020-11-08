@@ -1,0 +1,45 @@
+body {
+    font-family: Lucida Console;
+}
+.draw {
+    border: 5px dashed rgb(255, 149, 110);
+    background-color: white;
+    position: absolute;
+    border-radius: 4%;
+    padding: 2%;
+    width: 37%;
+}
+
+.vklad {
+    background-color: rgb(255, 149, 110);
+    height: 16%;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    writing-mode: tb-rl;
+}
+
+.nevklad {
+    background-color: rgb(255, 181, 154);
+    height: 16%;
+    position: fixed;
+    right: 0;
+    padding-right:5%;
+    text-align: center;
+    writing-mode: tb-rl;
+}
+
+.raboti {
+    position: absolute;
+    width: 22%;
+    height: 59%;
+    left: 8%;
+    top: 9%;
+    overflow-y: scroll;
+    background: linear-gradient(to bottom, #ff956e 10%, white 60%);
+}
+
+.kart {
+    width: 90%;
+    padding: 5%;
+}

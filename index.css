@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Lucida Console;
+}
+
+.bg {
+    background-color: rgb(255, 149, 110);
+    height: 58.8%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    top: 41.2%;
+}
+
+.text {
+    background-color: white;
+    border-radius: 0.8%;
+    top: 10%;
+    left: 7%;
+    position: absolute;
+    width: 45%;
+    height: 80%;
+
+}
+
+.a1 {
+    position: absolute;
+    left: 7%;
+    top: 3%;
+    font-size: 750%;
+    line-height: 0.9;
+    color: rgb(255, 149, 110)
+}
+
+.red {
+    background-color: rgb(255, 149, 110);
+    width: 32%;
+    height: 25%;
+    position: absolute;
+    
+}
+
+.notred {
+    background-color: rgb(255, 181, 154);
+    width: 32%;
+    height: 25%;
+    position: absolute;
+   
+}
