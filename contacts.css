@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Maha;
+    src: url(Maha/Maha.ttf)
+}
+a {
+    color: black;
+}
+body {
+    margin: 0;
+    font-family: Maha;
+}
+.text {
+    position: absolute;
+    text-align: center;
+   left: 10%;
+   top: 5%;
+    width: 80%;
+    height: 15%;;
+    font-size: 150%;
+}
+
+
+.block-href {
+    background-color: rgb(223, 157, 109);
+    width: 5%;
+    height: 15.2%;
+    position: fixed;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    
+    border-radius: 3%;
+    font-size: 100%;
+}
+.block {
+    background-color: rgb(167, 114, 79);
+    width: 3%;
+    height: 15.2%;
+    position: fixed;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    color: black;
+    border-radius: 3%;
+    font-size: 100%;  
+}
+.block:hover{
+    background-color: rgb(223, 157, 109);
+   width: 5%;
+}

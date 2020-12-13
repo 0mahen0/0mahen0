@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Maha;
+}
+.obomne {
+    position: absolute;
+    top: -7%;
+    left: 13%;
+    font-family: Freeride;
+    font-size: 500%;
+}
+.text {
+    position: absolute;
+    left: 13%;
+    top: 26%;
+    width: 60%;
+    color: #583126;
+    font-size: 130%;
+line-height: 2;
+}
+
+
+.block-href {
+    background-color: rgb(223, 157, 109);
+    width: 5%;
+    height: 15.2%;
+    position: absolute;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    
+    border-radius: 3%;
+    font-size: 100%;
+}
+.block {
+    background-color: rgb(167, 114, 79);
+    width: 3%;
+    height: 15.2%;
+    position: absolute;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    color: black;
+    border-radius: 3%;
+    font-size: 100%;  
+}
+.block:hover{
+    background-color: rgb(223, 157, 109);
+   width: 5%;
+}
+
