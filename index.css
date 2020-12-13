@@ -1,49 +1,63 @@
+@font-face {
+    font-family: Maha;
+    src: url(Maha/Maha.ttf)
+}
+a {
+    color: black;
+}
 body {
     margin: 0;
     font-family: Maha;
 }
-
-.bg {
-    background-color: rgb(255, 149, 110);
-    height: 58.8%;
-    width: 100%;
+.block-href {
+    background-color: rgb(223, 157, 109);
+    width: 5%;
+    height: 15.2%;
     position: absolute;
-    margin: 0;
-    top: 41.2%;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    
+    border-radius: 3%;
+    font-size: 100%;
 }
-
+.block {
+    background-color: rgb(167, 114, 79);
+    width: 3%;
+    height: 15.2%;
+    position: absolute;
+    left: 0;
+    writing-mode: tb-rl;
+    text-align: center;
+    color: black;
+    border-radius: 3%;
+    font-size: 100%;  
+}
+.block:hover{
+    background-color: rgb(223, 157, 109);
+   width: 5%;
+}
+.main_text {
+    position: absolute;
+    width: 50%;
+    left: 8%;
+    bottom: 10%;
+}
 .text {
-    background-color: white;
-    border-radius: 0.8%;
-    top: 10%;
-    left: 7%;
+    color: rgb(88, 49, 38);
     position: absolute;
-    width: 45%;
-    height: 80%;
-
+    width: 48%;
+    height: 30%;
+    left: 12.5%;
+    line-height:1.6;
+    font-size: 140%;
+    bottom: 20%;
 }
-
 .a1 {
     position: absolute;
-    left: 7%;
+    left: 10%;
     top: 3%;
-    font-size: 750%;
+    font-size: 800%;
     line-height: 0.9;
-    color: rgb(255, 149, 110)
-}
-
-.red {
-    background-color: rgb(255, 149, 110);
-    width: 32%;
-    height: 25%;
-    position: absolute;
-    
-}
-
-.notred {
-    background-color: rgb(255, 181, 154);
-    width: 32%;
-    height: 25%;
-    position: absolute;
-   
+    color: #2a0903;
 }
