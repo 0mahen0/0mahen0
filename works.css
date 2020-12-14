@@ -40,6 +40,11 @@ body {
 .work:hover {
     opacity: 100%;
 }
+.work-frame {
+    width:100%; 
+    height: 100%;
+}
+
 
 
 .block-href {
